@@ -1,1 +1,1 @@
-COPY raw_data FROM '/path/to/csv/short.surveyor_hackathon_data_20171212.csv' WITH (FORMAT csv);
+﻿COPY raw_data FROM 'C:\git\f\InternetTimer\data\short.surveyor_hackathon_data_20171212.csv' DELIMITER ';' CSV HEADER;

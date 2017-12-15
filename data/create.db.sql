@@ -2,8 +2,8 @@ CREATE TABLE raw_data
 (
 sid           /* ID des X6-Routers long                              */ int,
 created       /* Zeitstempel der Messung int (Unix epoch)            */ timestamp,
-gps_breite    /* GPS Breitengrad double                              */ LATITUDE double precision,
-gps_laenge    /* GPS Laengengrad double                              */ LONGITUDE double precision,
+gps_breite    /* GPS Breitengrad double                              */ double precision,
+gps_laenge    /* GPS Laengengrad double                              */ double precision,
 gps_hoehe     /* GPS Hoehe double (masl)                             */ double precision,
 gps_v         /* Geschwindigkeit des ICE double (m/s)                */ double precision,
 sat           /* Anzahl der sichtbaren Satelliten int >= 0           */ int,
