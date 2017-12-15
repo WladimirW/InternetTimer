@@ -1,1 +1,1 @@
-﻿COPY raw_data FROM 'C:\git\f\InternetTimer\data\short.surveyor_hackathon_data_20171212.csv' DELIMITER ';' CSV HEADER;
+﻿COPY raw_data FROM 'C:\git\f\InternetTimer\data\surveyor_hackathon_data_20171212.csv' DELIMITER ';' CSV HEADER;

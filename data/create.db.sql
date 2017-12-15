@@ -1,4 +1,4 @@
-CREATE TABLE raw_data 
+﻿CREATE TABLE raw_data 
 (
 sid           /* ID des X6-Routers long                              */ int,
 created       /* Zeitstempel der Messung int (Unix epoch)            */ timestamp,
@@ -7,7 +7,7 @@ gps_laenge    /* GPS Laengengrad double                              */ double p
 gps_hoehe     /* GPS Hoehe double (masl)                             */ double precision,
 gps_v         /* Geschwindigkeit des ICE double (m/s)                */ double precision,
 sat           /* Anzahl der sichtbaren Satelliten int >= 0           */ int,
-gps_richtung  /* Fahrtrichtung double [0,360]                        */ int,
+gps_richtung  /* Fahrtrichtung double [0,360]                        */ double precision,
 pax_auth      /* Anzahl authentifizierter Geraete im WLAN int >= 0   */ int,
 pax_total     /* Anzahl aller Geraete im WLAN int >= 0               */ int,
 tprx          /* Empfangene Datenrate des Zuges int (bytes/s) >= 0   */ int,
