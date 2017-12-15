@@ -1,0 +1,1 @@
+COPY raw_data FROM '/path/to/csv/short.surveyor_hackathon_data_20171212.csv' WITH (FORMAT csv);
