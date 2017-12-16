@@ -1,5 +1,5 @@
 { "type": "FeatureCollection", "features": [
 { "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.070605, 50.977077] }, "properties": { "title": "67.4825014343087","fill": "#550055","fill-opacity": 0.5,"marker-color": "#fff"} }
-, { "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.491762, 52.494925] }, "properties": { "title": "601.173913043478","fill": "#005555","marker-color": "#fff"} }
+, { "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.491762, 52.494925] }, "properties": { "title": "601.173913043478"} }
 , { "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.482505, 52.504505] }, "properties": { "title": "120.376237623762","fill": "#555500","fill-opacity": 0.5,"marker-color": "#fff"} }
 ]}
